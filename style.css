@@ -1,0 +1,173 @@
+#square {
+    height: 32px;
+    width: 100px
+}
+
+#cart {
+    height: 35px;
+    width: 40px;
+}
+
+#top {
+    display: flex;
+    padding-top: 10px;
+}
+
+#center {
+    margin: auto;
+    white-space: nowrap;
+    
+}
+
+#right {
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+
+#left {
+    position: absolute;
+    left: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #DEE1E3;
+    box-shadow: 0px 0px 10px  #DEE1E3;
+    z-index: 1;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+    padding-top: 11px;
+}
+
+.dropdown-content a {
+    color: #3e4348;
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    
+}
+
+.dropdown-content a:hover {
+    background-color: #EDEEF1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown span {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #3E4348;
+}
+
+#right a {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #3E4348;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 11px;
+}
+
+hr {
+    border:  solid #D5D8DB;  
+    border-width: thin;
+}
+
+.big {
+    font-size: 44px;
+    font-weight: 600;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #3E4348;
+}
+
+.small {
+    font-size: 20px;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #3E4348;
+    
+}
+
+#mid {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#mid button {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #5074D1;
+    padding: 16px 24px;
+    border-radius: 5px;
+}
+
+#mid button:hover {
+    background-color: #3153AF;
+}
+
+#mid img {
+    height: 30px;
+    width: 130px;
+}
+
+#pic {
+    height: 450px;
+    width: 1000px;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+#bottom {
+    background-color: #E3EEFA;
+    text-align: center;
+    position: relative;
+    top: -280px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.med {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #3e4348;
+    
+}
+
+.tiny {
+    font-size: 16px;
+    font-family: "Square Market", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    color: #3E4348;
+}
+
+#learn {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 100px;
+}
